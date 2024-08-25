@@ -1,0 +1,10 @@
+main {
+  height: 100% !important;
+}
+
+.arrows-container {
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
+}

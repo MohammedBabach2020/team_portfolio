@@ -1,0 +1,47 @@
+.hover-effect {
+
+
+  height: 300px;
+  position: relative;
+
+  background-color: rgb(240, 240, 240) !important;
+  border-radius: 0 !important;
+  border-width: 0 !important;
+  cursor: pointer;
+}
+
+.hover-effect:hover {
+  color: white;
+}
+
+.overlay {
+  background: rgb(255, 99, 99);
+  background: radial-gradient(circle, rgba(255, 99, 99, 1) 0%, rgba(209, 14, 14, 1) 77%);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0%;
+  height: 100%;
+}
+
+.hover-effect:hover .overlay {
+  animation: animate_overlay .5s linear forwards;
+
+
+}
+
+.card-body,
+.card-img-top {
+
+  z-index: 2;
+}
+
+@keyframes animate_overlay {
+  0% {
+    width: 0;
+  }
+
+  100% {
+    width: 100%;
+  }
+}

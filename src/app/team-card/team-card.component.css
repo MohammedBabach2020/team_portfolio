@@ -1,0 +1,30 @@
+.card-img-top {
+  max-height: 300px !important;
+}
+
+.card {
+
+
+  height: 500px;
+
+  border-radius: 0 !important;
+  border-width: 0 !important;
+  cursor: pointer;
+}
+
+.card-body {
+  color: white;
+  background: rgb(209, 14, 14);
+
+}
+
+.card-footer {
+  border: 0 !important;
+  border-radius: 0;
+  background: rgb(209, 14, 14);
+
+}
+
+.col {
+  max-height: 400px;
+}

@@ -1,0 +1,36 @@
+.teams-container {
+
+  height: 100% !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+}
+
+
+
+@keyframes slide__ {
+
+  0% {
+    opacity: 0;
+    position: absolute;
+
+  }
+
+  50% {
+    opacity: 0.5;
+
+    top: 20%;
+
+  }
+
+
+
+  100% {
+    opacity: 1;
+
+    top: 0%;
+  }
+
+}

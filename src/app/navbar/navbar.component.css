@@ -1,0 +1,8 @@
+.navbar-brand {
+  color: rgb(152, 28, 28) !important;
+}
+
+.navbar {
+  position: absolute;
+  top: 0;
+}

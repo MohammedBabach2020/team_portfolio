@@ -1,1 +1,21 @@
-/* You can add global styles to this file, and also import other style files */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0 !important;
+
+}
+
+body {
+  background: rgb(14, 14, 14);
+  background: radial-gradient(circle, rgba(29, 28, 28, 1) 0%, rgba(10, 10, 10, 1) 77%);
+
+  height: 100vh;
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    background: rgb(14, 14, 14);
+    background: radial-gradient(circle, rgba(29, 28, 28, 1) 0%, rgba(10, 10, 10, 1) 77%);
+    height: auto;
+  }
+}

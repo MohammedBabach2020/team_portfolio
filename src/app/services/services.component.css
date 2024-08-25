@@ -1,0 +1,24 @@
+.service-container {
+
+  height: 100% !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  animation: slide__ 3s linear forwards;
+}
+
+
+@keyframes slide__ {
+
+  from {
+
+
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
