@@ -1,13 +1,12 @@
 .teams-container {
 
-  height: 100% !important;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-
+  height: auto !important;
+  min-height: 50vh;
 }
 
+.teams-container .row {
+  height: 100% !important;
+}
 
 
 @keyframes slide__ {

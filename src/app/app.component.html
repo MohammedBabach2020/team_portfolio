@@ -1,13 +1,13 @@
 <main class="main">
   <app-navbar></app-navbar>
-  <router-outlet></router-outlet>
 
+  <app-hero></app-hero>
 
+  <app-overview></app-overview>
+
+  <app-services></app-services>
+
+  <app-teamview></app-teamview>
+
+  <app-projects></app-projects>
 </main>
-
-<div class="arrows-container d-flex space-between">
-  @if ( this.currentRouteIndex > 0) { <a [routerLink]="previousPage" class="text-light fs-1 me-1"><i
-      class="bi bi-arrow-left-circle"></i></a>}
-
-  <a [routerLink]="nextPage" class="text-light fs-1 ms-1"><i class="bi bi-arrow-right-circle"></i></a>
-</div>

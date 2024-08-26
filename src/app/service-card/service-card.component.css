@@ -1,3 +1,19 @@
+.col {
+
+  position: relative;
+}
+
+.card {
+
+  position: absolute;
+  left: -100%;
+  animation: getit .5s linear both;
+  animation-timeline: view();
+  animation-range-end: 20%;
+}
+
+
+
 .hover-effect {
 
 
@@ -44,4 +60,12 @@
   100% {
     width: 100%;
   }
+}
+
+@keyframes getit {
+  to {
+
+    left: 0px;
+  }
+
 }

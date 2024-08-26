@@ -1,6 +1,6 @@
-<div class="teams-container p-4">
+<div class="teams-container  p-4">
   <h1 class="text-light fs-1 text-left my-4 text-uppercase">Our professionals</h1>
-  <div class="row row-cols-1  row-cols-md-3 g-4">
+  <div class="row justify-content-center  row-cols-1  row-cols-md-3 g-4">
     @for(member of teamMembers ; track $index){
 
     <app-team-card [memeberImage]="member.memeberImage" [memeberName]="member.memeberName"
